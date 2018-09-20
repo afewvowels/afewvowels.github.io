@@ -3,12 +3,11 @@
 /*
   Palette
 
-  White: #FCF7F6
-  Orange: #943600
-  Green: #08A368
-  Red: #A60835
-  Magenta: #9C0A5D
-  Blue: #1F3C8C
+  Blue: #607EA6
+  Dark Blue: #171E26
+  Grey: #2F3640
+  Light Grey: #BFBDB8
+  Off-white: #F2EDE4
 
  */
 
@@ -19,8 +18,8 @@ html {
 body {
   margin: 0 auto;
   padding: 0;
-  background-color: #1F3C8C;
-  color: #FCF7F6;
+  background-color: #171E26;
+  color: #F2EDE4;
   font-family: 'WorkSansRegular';
   font-weight: normal;
   font-style: normal;
@@ -29,20 +28,42 @@ body {
 footer {
 }
 
-header {
-  position: fixed;
-  top: 0;
-  width: 100vw;
-  height: 45px;
+/* Tag styling */
+div {
+  margin-top: 75px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  width: 100vw;
+  height: 150px;
+  background-color: #2F3640;
+  border-top: 7px solid #BFBDB8;
+  border-bottom: 7px solid #BFBDB8;
 }
 
-/* Tag styling */
 h2 {
+  font-size: 4.2em;
+  font-weight: Semibold;
   margin: 0 auto;
   padding: 0;
+}
+
+hr {
+  width: 370px;
+  margin: 0 auto;
+  border: 1px solid #F2EDE4;
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: Thin;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin: 0 auto;
+}
+
+section {
+  text-align: center;
 }
 
 /* ID styling */
